@@ -3,14 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>2026世界杯对阵图预测器 - 选出你的冠军</title>
-<meta name="description" content="2026美加墨世界杯中文对阵图预测器，48支球队等你来预测冠军。一键分享到朋友圈，和好友比拼谁更准！">
-<meta name="keywords" content="2026世界杯,世界杯预测,对阵图,冠军预测,世界杯赛程,美加墨世界杯">
-<meta property="og:title" content="2026世界杯对阵图预测器 - 选出你的冠军">
-<meta property="og:description" content="48支球队，104场比赛，你的冠军是谁？一键预测，分享给好友！">
+<title>2026世界杯对阵图预测器 - 48队淘汰赛对阵图，一键预测冠军</title>
+<meta name="description" content="2026美加墨世界杯中文对阵图预测器，48支球队、104场比赛，一键预测冠军并生成海报分享到朋友圈。和好友比拼谁预测更准！">
+<meta name="keywords" content="2026世界杯,世界杯预测,对阵图,冠军预测,世界杯赛程,美加墨世界杯,世界杯淘汰赛,世界杯对阵表">
+<link rel="canonical" href="https://worldcup-predictor-2026.pages.dev">
+<meta property="og:title" content="2026世界杯对阵图预测器 - 48队淘汰赛对阵图，选出你的冠军">
+<meta property="og:description" content="48支球队，104场比赛，你的冠军是谁？一键预测，生成海报分享给好友！">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:url" content="https://worldcup-predictor-2026.pages.dev">
+<meta property="og:image" content="https://worldcup-predictor-2026.pages.dev/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2026世界杯对阵图预测器">
+<meta name="twitter:description" content="48支球队，一键预测冠军，分享给好友比拼谁更准！">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "2026世界杯对阵图预测器",
+  "description": "2026美加墨世界杯中文对阵图预测工具，48支球队一键预测冠军",
+  "url": "https://worldcup-predictor-2026.pages.dev",
+  "applicationCategory": "SportsApplication",
+  "operatingSystem": "Web"
+}
+</script>
 <link rel="stylesheet" href="css/style.css">
 <script src="data/teams.json?v=1" type="text/javascript">
   // JSON data loaded as TEAMS_DATA global
@@ -46,6 +63,109 @@
 var TEAMS_DATA = {"A":[{"name":"墨西哥","flag":"🇲🇽","fifa":14},{"name":"荷兰","flag":"🇳🇱","fifa":6},{"name":"塞内加尔","flag":"🇸🇳","fifa":20},{"name":"新西兰","flag":"🇳🇿","fifa":103}],"B":[{"name":"加拿大","flag":"🇨🇦","fifa":48},{"name":"丹麦","flag":"🇩🇰","fifa":19},{"name":"摩洛哥","flag":"🇲🇦","fifa":13},{"name":"巴拿马","flag":"🇵🇦","fifa":58}],"C":[{"name":"阿根廷","flag":"🇦🇷","fifa":1},{"name":"葡萄牙","flag":"🇵🇹","fifa":7},{"name":"埃及","flag":"🇪🇬","fifa":35},{"name":"牙买加","flag":"🇯🇲","fifa":64}],"D":[{"name":"美国","flag":"🇺🇸","fifa":11},{"name":"乌拉圭","flag":"🇺🇾","fifa":16},{"name":"韩国","flag":"🇰🇷","fifa":25},{"name":"挪威","flag":"🇳🇴","fifa":43}],"E":[{"name":"巴西","flag":"🇧🇷","fifa":3},{"name":"克罗地亚","flag":"🇭🇷","fifa":12},{"name":"日本","flag":"🇯🇵","fifa":18},{"name":"喀麦隆","flag":"🇨🇲","fifa":42}],"F":[{"name":"法国","flag":"🇫🇷","fifa":2},{"name":"哥伦比亚","flag":"🇨🇴","fifa":17},{"name":"澳大利亚","flag":"🇦🇺","fifa":27},{"name":"沙特阿拉伯","flag":"🇸🇦","fifa":56}],"G":[{"name":"英格兰","flag":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","fifa":5},{"name":"比利时","flag":"🇧🇪","fifa":8},{"name":"伊朗","flag":"🇮🇷","fifa":22},{"name":"哥斯达黎加","flag":"🇨🇷","fifa":39}],"H":[{"name":"西班牙","flag":"🇪🇸","fifa":10},{"name":"意大利","flag":"🇮🇹","fifa":9},{"name":"加纳","flag":"🇬🇭","fifa":60},{"name":"阿联酋","flag":"🇦🇪","fifa":70}],"I":[{"name":"德国","flag":"🇩🇪","fifa":15},{"name":"瑞士","flag":"🇨🇭","fifa":21},{"name":"尼日利亚","flag":"🇳🇬","fifa":32},{"name":"卡塔尔","flag":"🇶🇦","fifa":50}],"J":[{"name":"智利","flag":"🇨🇱","fifa":31},{"name":"塞尔维亚","flag":"🇷🇸","fifa":28},{"name":"波兰","flag":"🇵🇱","fifa":26},{"name":"秘鲁","flag":"🇵🇪","fifa":36}],"K":[{"name":"土耳其","flag":"🇹🇷","fifa":29},{"name":"瑞典","flag":"🇸🇪","fifa":23},{"name":"科特迪瓦","flag":"🇨🇮","fifa":38},{"name":"厄瓜多尔","flag":"🇪🇨","fifa":44}],"L":[{"name":"匈牙利","flag":"🇭🇺","fifa":30},{"name":"奥地利","flag":"🇦🇹","fifa":24},{"name":"乌克兰","flag":"🇺🇦","fifa":33},{"name":"阿尔及利亚","flag":"🇩🇿","fifa":34}]};
 </script>
 
+<!-- FAQ Section (SEO Layer 6: 工具站2.0落地页架构) -->
+<section class="faq-section" id="faq">
+  <div class="container">
+    <h2 class="faq-title">常见问题</h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary class="faq-question">2026世界杯什么时候开始？</summary>
+        <div class="faq-answer">
+          <p>2026年世界杯将于<strong>2026年6月11日</strong>开幕，揭幕战在墨西哥城阿兹特克体育场举行。决赛定于<strong>2026年7月20日</strong>（周一凌晨）在纽约/新泽西大都会人寿体育场进行。本届世界杯是首次由三个国家（美国、加拿大、墨西哥）联合主办，共104场比赛，历时40天。</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">2026世界杯在哪里举办？有哪些城市？</summary>
+        <div class="faq-answer">
+          <p>2026世界杯由<strong>美国、加拿大、墨西哥</strong>三国联合主办，共16个城市：美国11个（纽约/新泽西、洛杉矶、达拉斯、亚特兰大、休斯顿、迈阿密、费城、西雅图、旧金山湾区、波士顿、堪萨斯城），墨西哥3个（墨西哥城、蒙特雷、瓜达拉哈拉），加拿大2个（多伦多、温哥华）。</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">2026世界杯有多少支球队参赛？</summary>
+        <div class="faq-answer">
+          <p>2026世界杯首次扩军至<strong>48支球队</strong>，分为12个小组（A-L组），每组4支球队。这是世界杯历史上参赛球队最多的一届，相比2022年卡塔尔世界杯的32支增加了16支。小组赛结束后，每组前两名和8个成绩最好的小组第三名晋级32强淘汰赛。</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">2026世界杯中国队参加吗？</summary>
+        <div class="faq-answer">
+          <p>遗憾的是，中国男足在亚洲区预选赛中<strong>未能晋级</strong>2026年世界杯决赛圈。亚洲区共有8.5个名额（较往届大幅增加），但中国队在18强赛中排名靠后，无缘本届世界杯。不过你仍然可以在本工具中选择你支持的球队进行预测！</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">世界杯对阵图怎么看？淘汰赛规则是什么？</summary>
+        <div class="faq-answer">
+          <p>世界杯淘汰赛从<strong>32强</strong>开始，经过5轮单场淘汰：32强 → 16强 → 8强（四分之一决赛）→ 半决赛 → 决赛。每场比赛必须决出胜负，常规时间打平进入加时赛（30分钟），仍平局则点球大战。本工具完整展示了从小组赛到决赛的完整对阵图，你可以逐轮预测每场比赛的胜者。</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">2026世界杯冠军预测，谁最有希望夺冠？</summary>
+        <div class="faq-answer">
+          <p>根据国际足联排名和博彩公司赔率，<strong>阿根廷（FIFA第1）、法国（FIFA第2）、巴西（FIFA第3）</strong>是本届最被看好的夺冠热门。英格兰、西班牙、德国、葡萄牙等传统强队也具备争冠实力。不过世界杯从来不缺黑马——2018年的克罗地亚、2022年的摩洛哥都曾创造奇迹。用本工具试试你的预测吧！</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">世界杯小组赛排名规则是什么？</summary>
+        <div class="faq-answer">
+          <p>小组赛排名按以下顺序比较：①积分（胜3分、平1分、负0分）②净胜球 ③总进球数 ④相互比赛积分 ⑤相互比赛净胜球 ⑥相互比赛进球数 ⑦公平竞赛积分（黄牌-1、红牌-4等）⑧抽签。每组前两名直接晋级32强，此外8个成绩最好的小组第三名也晋级。</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">这个预测工具怎么用？是免费的吗？</summary>
+        <div class="faq-answer">
+          <p>本工具<strong>完全免费</strong>，无需注册或下载。只需三步：①打开页面点击随机预测，或自己排列小组排名 ②逐轮预测淘汰赛对阵胜负 ③查看你的冠军结果，生成海报分享到微信/朋友圈。你也可以直接点「随机预测」一键出结果，<strong>3秒就能获得一个完整的冠军预测</strong>。</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">预测结果怎么分享给好友？</summary>
+        <div class="faq-answer">
+          <p>完成预测后，点击「分享」按钮即可：①<strong>保存海报图片</strong>——自动生成精美冠军海报，可保存到相册或直接发朋友圈 ②<strong>复制链接</strong>——复制预测结果链接发给微信好友 ③好友打开你的链接可以看到你的预测结果。快和朋友们比拼谁的预测更准！</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">2026世界杯决赛什么时候？在哪里看直播？</summary>
+        <div class="faq-answer">
+          <p>2026世界杯决赛将于<strong>2026年7月20日凌晨3:00（北京时间）</strong>在纽约/新泽西大都会人寿体育场举行。国内观众可通过<strong>央视CCTV5、咪咕视频、小红书</strong>三大平台观看直播。由于时差关系（美东比北京慢12小时），建议球迷提前安排好观赛计划。</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">世界杯48队赛制和以前有什么不同？</summary>
+        <div class="faq-answer">
+          <p>最大的变化是<strong>小组第三名也有出线机会</strong>。12个小组的前两名（24队）加上成绩最好的8个小组第三名，组成32强进入淘汰赛。这意味着小组赛的容错率更高——即使小组第三也有晋级可能，比赛悬念更大。但淘汰赛阶段从32强开始，比往届多了一轮比赛。</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">世界杯淘汰赛对阵图怎么生成的？预测靠谱吗？</summary>
+        <div class="faq-answer">
+          <p>淘汰赛对阵路线由国际足联（FIFA）<strong>预先固定</strong>，不同小组的出线球队按照预设路线进入对阵表的特定位置。本工具严格按照FIFA官方对阵路线图设计。预测结果基于你在小组排名和每轮淘汰赛中的选择——<strong>预测是否准确，完全取决于你的足球判断力</strong>！当然，你也可以用「随机预测」功能让运气来决定。</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Schema.org 结构化数据（SEO富摘要） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "2026世界杯什么时候开始？", "acceptedAnswer": {"@type": "Answer", "text": "2026年世界杯将于2026年6月11日开幕，决赛定于2026年7月20日。本届世界杯首次由美国、加拿大、墨西哥三国联合主办，共104场比赛，历时40天。"}},
+    {"@type": "Question", "name": "2026世界杯在哪里举办？", "acceptedAnswer": {"@type": "Answer", "text": "2026世界杯由美国、加拿大、墨西哥三国联合主办，共16个城市：美国11个，墨西哥3个，加拿大2个。"}},
+    {"@type": "Question", "name": "2026世界杯有多少支球队？", "acceptedAnswer": {"@type": "Answer", "text": "2026世界杯首次扩军至48支球队，分为12个小组（A-L组），每组4支球队。这是世界杯历史上参赛球队最多的一届。"}},
+    {"@type": "Question", "name": "2026世界杯中国队参加吗？", "acceptedAnswer": {"@type": "Answer", "text": "中国男足在亚洲区预选赛中未能晋级2026年世界杯决赛圈。亚洲区共有8.5个名额，但中国队在18强赛中排名靠后。"}},
+    {"@type": "Question", "name": "世界杯对阵图怎么看？淘汰赛规则是什么？", "acceptedAnswer": {"@type": "Answer", "text": "世界杯淘汰赛从32强开始，经过5轮单场淘汰：32强→16强→8强→半决赛→决赛。常规时间打平进入加时赛，仍平局则点球大战。"}},
+    {"@type": "Question", "name": "2026世界杯冠军预测谁最有希望？", "acceptedAnswer": {"@type": "Answer", "text": "阿根廷（FIFA第1）、法国（FIFA第2）、巴西（FIFA第3）是本届最被看好的夺冠热门。英格兰、西班牙、德国、葡萄牙也具备争冠实力。"}},
+    {"@type": "Question", "name": "世界杯小组赛排名规则是什么？", "acceptedAnswer": {"@type": "Answer", "text": "小组赛排名按积分、净胜球、总进球数、相互比赛积分、相互比赛净胜球、相互比赛进球数、公平竞赛积分、抽签的顺序比较。每组前两名和8个成绩最好的小组第三晋级。"}},
+    {"@type": "Question", "name": "这个世界杯预测工具是免费的吗？", "acceptedAnswer": {"@type": "Answer", "text": "完全免费，无需注册下载。打开页面即可使用，一键随机预测3秒出结果，支持生成海报分享到微信朋友圈。"}},
+    {"@type": "Question", "name": "2026世界杯决赛什么时候？在哪里看直播？", "acceptedAnswer": {"@type": "Answer", "text": "决赛于2026年7月20日凌晨3:00（北京时间）在纽约举行。国内观众可通过央视CCTV5、咪咕视频、小红书三大平台观看直播。"}},
+    {"@type": "Question", "name": "世界杯48队赛制和以前有什么不同？", "acceptedAnswer": {"@type": "Answer", "text": "最大的变化是小组第三名也有出线机会。12个小组前两名加8个成绩最好的小组第三组成32强，小组赛容错率更高，比赛悬念更大。"}},
+    {"@type": "Question", "name": "世界杯淘汰赛对阵图怎么生成的？预测靠谱吗？", "acceptedAnswer": {"@type": "Answer", "text": "淘汰赛对阵路线由国际足联预先固定。本工具严格按照FIFA官方对阵路线图设计，预测结果取决于你在小组排名和淘汰赛中的选择。"}},
+    {"@type": "Question", "name": "预测结果怎么分享给好友？", "acceptedAnswer": {"@type": "Answer", "text": "完成预测后点击分享按钮，可保存冠军海报到相册发朋友圈，或复制链接发给微信好友。好友打开链接即可看到你的预测结果。"}}
+  ]
+}
+</script>
+
 <!-- Application Scripts (order matters) -->
 <script src="js/i18n/zh-CN.js"></script>
 <script src="js/state.js"></script>
@@ -60,5 +180,18 @@ var TEAMS_DATA = {"A":[{"name":"墨西哥","flag":"🇲🇽","fifa":14},{"name":
 <script src="js/pages/result.js"></script>
 <script src="js/pages/share.js"></script>
 <script src="js/app.js"></script>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <p>🏆 2026世界杯对阵图预测器 · 美加墨世界杯中文工具</p>
+    <p style="margin-top:4px">
+      <a href="#faq">常见问题</a>
+      <span class="footer-divider">|</span>
+      <a href="https://github.com/cn766/worldcup-predictor-2026" target="_blank" rel="noopener">GitHub</a>
+    </p>
+    <p style="margin-top:8px;font-size:11px;opacity:0.6">本工具仅供娱乐，预测结果不代表实际比赛结果。数据来源：FIFA国际足联。</p>
+  </div>
+</footer>
 </body>
 </html>
