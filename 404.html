@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>页面不存在 - 世界杯预测器</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: #0a0e27;
+  color: #e8e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+.error-card {
+  max-width: 400px;
+}
+.error-emoji { font-size: 64px; margin-bottom: 16px; }
+.error-title { font-size: 24px; font-weight: 800; margin-bottom: 8px; }
+.error-msg { color: #8890b5; font-size: 14px; margin-bottom: 24px; line-height: 1.6; }
+.back-btn {
+  display: inline-block;
+  padding: 12px 32px;
+  background: linear-gradient(135deg, #ff6b35, #ff5722);
+  color: white;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  transition: transform 0.2s;
+}
+.back-btn:active { transform: scale(0.98); }
+</style>
+</head>
+<body>
+<div class="error-card">
+  <div class="error-emoji">⚽</div>
+  <div class="error-title">页面不存在</div>
+  <div class="error-msg">您访问的页面不存在，可能已被移动或删除。<br>不如来预测一下世界杯冠军吧！</div>
+  <a href="/" class="back-btn">🏆 返回首页</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "A": [
+    {"name":"墨西哥","flag":"🇲🇽","fifa":14},
+    {"name":"荷兰","flag":"🇳🇱","fifa":6},
+    {"name":"塞内加尔","flag":"🇸🇳","fifa":20},
+    {"name":"新西兰","flag":"🇳🇿","fifa":103}
+  ],
+  "B": [
+    {"name":"加拿大","flag":"🇨🇦","fifa":48},
+    {"name":"丹麦","flag":"🇩🇰","fifa":19},
+    {"name":"摩洛哥","flag":"🇲🇦","fifa":13},
+    {"name":"巴拿马","flag":"🇵🇦","fifa":58}
+  ],
+  "C": [
+    {"name":"阿根廷","flag":"🇦🇷","fifa":1},
+    {"name":"葡萄牙","flag":"🇵🇹","fifa":7},
+    {"name":"埃及","flag":"🇪🇬","fifa":35},
+    {"name":"牙买加","flag":"🇯🇲","fifa":64}
+  ],
+  "D": [
+    {"name":"美国","flag":"🇺🇸","fifa":11},
+    {"name":"乌拉圭","flag":"🇺🇾","fifa":16},
+    {"name":"韩国","flag":"🇰🇷","fifa":25},
+    {"name":"挪威","flag":"🇳🇴","fifa":43}
+  ],
+  "E": [
+    {"name":"巴西","flag":"🇧🇷","fifa":3},
+    {"name":"克罗地亚","flag":"🇭🇷","fifa":12},
+    {"name":"日本","flag":"🇯🇵","fifa":18},
+    {"name":"喀麦隆","flag":"🇨🇲","fifa":42}
+  ],
+  "F": [
+    {"name":"法国","flag":"🇫🇷","fifa":2},
+    {"name":"哥伦比亚","flag":"🇨🇴","fifa":17},
+    {"name":"澳大利亚","flag":"🇦🇺","fifa":27},
+    {"name":"沙特阿拉伯","flag":"🇸🇦","fifa":56}
+  ],
+  "G": [
+    {"name":"英格兰","flag":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","fifa":5},
+    {"name":"比利时","flag":"🇧🇪","fifa":8},
+    {"name":"伊朗","flag":"🇮🇷","fifa":22},
+    {"name":"哥斯达黎加","flag":"🇨🇷","fifa":39}
+  ],
+  "H": [
+    {"name":"西班牙","flag":"🇪🇸","fifa":10},
+    {"name":"意大利","flag":"🇮🇹","fifa":9},
+    {"name":"加纳","flag":"🇬🇭","fifa":60},
+    {"name":"阿联酋","flag":"🇦🇪","fifa":70}
+  ],
+  "I": [
+    {"name":"德国","flag":"🇩🇪","fifa":15},
+    {"name":"瑞士","flag":"🇨🇭","fifa":21},
+    {"name":"尼日利亚","flag":"🇳🇬","fifa":32},
+    {"name":"卡塔尔","flag":"🇶🇦","fifa":50}
+  ],
+  "J": [
+    {"name":"智利","flag":"🇨🇱","fifa":31},
+    {"name":"塞尔维亚","flag":"🇷🇸","fifa":28},
+    {"name":"波兰","flag":"🇵🇱","fifa":26},
+    {"name":"秘鲁","flag":"🇵🇪","fifa":36}
+  ],
+  "K": [
+    {"name":"土耳其","flag":"🇹🇷","fifa":29},
+    {"name":"瑞典","flag":"🇸🇪","fifa":23},
+    {"name":"科特迪瓦","flag":"🇨🇮","fifa":38},
+    {"name":"厄瓜多尔","flag":"🇪🇨","fifa":44}
+  ],
+  "L": [
+    {"name":"匈牙利","flag":"🇭🇺","fifa":30},
+    {"name":"奥地利","flag":"🇦🇹","fifa":24},
+    {"name":"乌克兰","flag":"🇺🇦","fifa":33},
+    {"name":"阿尔及利亚","flag":"🇩🇿","fifa":34}
+  ]
+}

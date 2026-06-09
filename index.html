@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>2026世界杯对阵图预测器 - 选出你的冠军</title>
+<meta name="description" content="2026美加墨世界杯中文对阵图预测器，48支球队等你来预测冠军。一键分享到朋友圈，和好友比拼谁更准！">
+<meta name="keywords" content="2026世界杯,世界杯预测,对阵图,冠军预测,世界杯赛程,美加墨世界杯">
+<meta property="og:title" content="2026世界杯对阵图预测器 - 选出你的冠军">
+<meta property="og:description" content="48支球队，104场比赛，你的冠军是谁？一键预测，分享给好友！">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+<script src="data/teams.json?v=1" type="text/javascript">
+  // JSON data loaded as TEAMS_DATA global
+</script>
+</head>
+<body>
+<div class="container">
+  <!-- Header -->
+  <div class="header">
+    <div class="logo-area">
+      <span class="trophy">🏆</span>
+      <div>
+        <h1>世界杯冠军预测</h1>
+        <div class="subtitle">2026 美加墨 · 48支球队 · 你说了算</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <!-- Screens -->
+  <div class="screen" id="screen-aha"></div>
+  <div class="screen" id="screen-groups"></div>
+  <div class="screen" id="screen-bracket"></div>
+  <div class="screen" id="screen-result"></div>
+  <div class="screen" id="screen-share"></div>
+</div>
+
+<!-- Team data (inline for compatibility with file:// protocol) -->
+<script>
+// 球队数据 - 由 teams.json 内容内联
+var TEAMS_DATA = {"A":[{"name":"墨西哥","flag":"🇲🇽","fifa":14},{"name":"荷兰","flag":"🇳🇱","fifa":6},{"name":"塞内加尔","flag":"🇸🇳","fifa":20},{"name":"新西兰","flag":"🇳🇿","fifa":103}],"B":[{"name":"加拿大","flag":"🇨🇦","fifa":48},{"name":"丹麦","flag":"🇩🇰","fifa":19},{"name":"摩洛哥","flag":"🇲🇦","fifa":13},{"name":"巴拿马","flag":"🇵🇦","fifa":58}],"C":[{"name":"阿根廷","flag":"🇦🇷","fifa":1},{"name":"葡萄牙","flag":"🇵🇹","fifa":7},{"name":"埃及","flag":"🇪🇬","fifa":35},{"name":"牙买加","flag":"🇯🇲","fifa":64}],"D":[{"name":"美国","flag":"🇺🇸","fifa":11},{"name":"乌拉圭","flag":"🇺🇾","fifa":16},{"name":"韩国","flag":"🇰🇷","fifa":25},{"name":"挪威","flag":"🇳🇴","fifa":43}],"E":[{"name":"巴西","flag":"🇧🇷","fifa":3},{"name":"克罗地亚","flag":"🇭🇷","fifa":12},{"name":"日本","flag":"🇯🇵","fifa":18},{"name":"喀麦隆","flag":"🇨🇲","fifa":42}],"F":[{"name":"法国","flag":"🇫🇷","fifa":2},{"name":"哥伦比亚","flag":"🇨🇴","fifa":17},{"name":"澳大利亚","flag":"🇦🇺","fifa":27},{"name":"沙特阿拉伯","flag":"🇸🇦","fifa":56}],"G":[{"name":"英格兰","flag":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","fifa":5},{"name":"比利时","flag":"🇧🇪","fifa":8},{"name":"伊朗","flag":"🇮🇷","fifa":22},{"name":"哥斯达黎加","flag":"🇨🇷","fifa":39}],"H":[{"name":"西班牙","flag":"🇪🇸","fifa":10},{"name":"意大利","flag":"🇮🇹","fifa":9},{"name":"加纳","flag":"🇬🇭","fifa":60},{"name":"阿联酋","flag":"🇦🇪","fifa":70}],"I":[{"name":"德国","flag":"🇩🇪","fifa":15},{"name":"瑞士","flag":"🇨🇭","fifa":21},{"name":"尼日利亚","flag":"🇳🇬","fifa":32},{"name":"卡塔尔","flag":"🇶🇦","fifa":50}],"J":[{"name":"智利","flag":"🇨🇱","fifa":31},{"name":"塞尔维亚","flag":"🇷🇸","fifa":28},{"name":"波兰","flag":"🇵🇱","fifa":26},{"name":"秘鲁","flag":"🇵🇪","fifa":36}],"K":[{"name":"土耳其","flag":"🇹🇷","fifa":29},{"name":"瑞典","flag":"🇸🇪","fifa":23},{"name":"科特迪瓦","flag":"🇨🇮","fifa":38},{"name":"厄瓜多尔","flag":"🇪🇨","fifa":44}],"L":[{"name":"匈牙利","flag":"🇭🇺","fifa":30},{"name":"奥地利","flag":"🇦🇹","fifa":24},{"name":"乌克兰","flag":"🇺🇦","fifa":33},{"name":"阿尔及利亚","flag":"🇩🇿","fifa":34}]};
+</script>
+
+<!-- Application Scripts (order matters) -->
+<script src="js/i18n/zh-CN.js"></script>
+<script src="js/state.js"></script>
+<script src="js/data.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/utils/storage.js"></script>
+<script src="js/utils/analytics.js"></script>
+<script src="js/utils/poster.js"></script>
+<script src="js/pages/aha.js"></script>
+<script src="js/pages/groups.js"></script>
+<script src="js/pages/bracket.js"></script>
+<script src="js/pages/result.js"></script>
+<script src="js/pages/share.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
